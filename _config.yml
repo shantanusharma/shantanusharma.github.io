@@ -1,0 +1,20 @@
+# Setup
+title:        Shantanu Sharma
+tagline:      Welcome to Shantanu's home
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       Shantanu Sharma
+  url:        https://www.shantanusharma.com 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
+
+plugins: [jekyll-paginate]
