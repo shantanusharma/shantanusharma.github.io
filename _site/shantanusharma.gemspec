@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = [""]
   spec.email         = ["shantanusharma@users.noreply.github.com"]
 
-  spec.summary       = %q{Shantanu Sharma homepage }
-  spec.homepage      = "https://www.shantanusharma.com"
+  spec.summary       = %q{Shantanu Sharma homepage spec Cayman theme, inspired from https://github.com/jasonlong/cayman-theme }
+  spec.homepage      = "https://github.com/shantanusharma/cayman-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i}) }
