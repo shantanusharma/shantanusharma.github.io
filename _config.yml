@@ -8,7 +8,8 @@ locale:       "en"
 # About/contact
 author:
   name:       Shantanu Sharma
-  url:        https://www.shantanusharma.com 
+  url:        https://www.shantanusharma.com
+  photo:      /images/profile.jpg
 
 # Gems
 gems:
