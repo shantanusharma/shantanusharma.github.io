@@ -224,3 +224,40 @@ a:hover { text-decoration: underline; }
     margin: 0 0.25rem;
   }
 }
+
+/* Profile Photo */
+.profile-photo-link {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-photo-link:hover {
+  transform: scale(1.05);
+}
+
+.profile-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  display: block;
+}
+
+@media screen and (max-width: 42em) {
+  .profile-photo {
+    width: 60px;
+    height: 60px;
+    border-width: 2px;
+  }
+
+  .profile-photo-link {
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+}
